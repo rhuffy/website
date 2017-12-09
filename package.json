@@ -1,0 +1,27 @@
+{
+  "name": "fsae.mit.edu",
+  "version": "1.0.0",
+  "description": "MIT Motorsports' Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MITMotorsports/website.git"
+  },
+  "author": "Nickolas Stathas",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MITMotorsports/website/issues"
+  },
+  "homepage": "https://github.com/MITMotorsports/website#readme",
+  "devDependencies": {
+    "async-file": "^2.0.2",
+    "bluebird": "^3.5.0",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-markdown": "^1.2.0"
+  }
+}
