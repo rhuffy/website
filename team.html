@@ -10,8 +10,8 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" integrity="sha256-e22BQKCF7bb/h/4MFJ1a4lTRR2OuAe8Hxa/3tgU5Taw=" crossorigin="anonymous" />
+  <link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
   <header>
@@ -62,20 +62,95 @@
             <p>The team is divided into two groups of subsystems, mechanical and electrical. Our 50 members may be working/living/contributing in any of these subteams.</p>
             <ul class="collapsible" data-collapsible="accordion">
               <li>
-                <div class="collapsible-header"><i class="material-icons">group</i>3 executive positions</div>
-                <div class="collapsible-body"><p>Captain, Chief Engineer, EE Lead<br>The EE lead manages the two electrical teams of low voltage systems and software, while the chief engineer takes care of the mechanical systems, which include battery, powertrain, and aerodynamics. These two larger roles are in turn managed by the captain. On the nontechnical side, the captain also directs a business team and a publicity team.</p></div>
+                <div class="collapsible-header"><i class="material-icons">group</i>4 executive positions</div>
+                <div class="collapsible-body">
+                  <p>
+                    The electrical and software leads manage the electrical systems necessary for the car to function.
+                  </p>
+                  <p>
+                    The chief engineer takes care of the mechanical systems and manages topics ranging from aerodynamics to frame design and packaging.
+                  </p>
+                  <p>
+                    The captain monitors the progress of the enitre team. On the nontechnical side, the captain directs a business team and a publicity team.
+                  </p>
+                </div>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">settings</i>13 mechanical subteams</div>
-                <div class="collapsible-body"><p>A Arms, Arbs & Rockers, Battery, Enclosures, Brakes, Aero, Pedal Box, Powertrain, R&D, Suspension, Wheel Packages, Testing, Cooling<br>Each subteam is lead by one member elected at the end of the previous model year. They and the rest of the subteam is responsible for designing and manufacturing their part of the car. Each subteam works independently but together they all work together to achieve a rolling chassis.</p></div>
+                <div class="collapsible-header"><i class="material-icons">settings</i>13 Mechanical Subteams</div>
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <p>
+                      Each subteam is lead by one member elected at the end of the previous year.
+                      They and the rest of the subteam is responsible for designing and manufacturing their part of the car.
+                      Each subteam works independently but they all converge half way through the build cycle when they build the rolling chassis.
+                    </p>
+                    <li class="collection-item">
+                      A Arms
+                    </li>
+                    <li class="collection-item">
+                      Arbs &amp; Rockers
+                    </li>
+                    <li class="collection-item">
+                      Battery
+                    </li>
+                    <li class="collection-item">
+                      Enclosures
+                    </li>
+                    <li class="collection-item">
+                      Brakes
+                    </li>
+                    <li class="collection-item">
+                      Aero
+                    </li>
+                    <li class="collection-item">
+                      Pedal Box
+                    </li>
+                    <li class="collection-item">
+                      Powertrain
+                    </li>
+                    <li class="collection-item">
+                      R&amp;D
+                    </li>
+                    <li class="collection-item">
+                      Suspension
+                    </li>
+                    <li class="collection-item">
+                      Wheel Packages
+                    </li>
+                    <li class="collection-item">
+                      Testing
+                    </li>
+                    <li class="collection-item">
+                      Cooling
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">memory</i>2 electrical subteams</div>
-                <div class="collapsible-body"><p>Electrical engineering, Software<br>Members of these subteams build all the electronics and software necessary for the car to accelerate and drive during the competition. They divide up labor corresponding to seperate projects and report back to the EE lead.</p></div>
+                <div class="collapsible-header"><i class="material-icons">ev_station</i>Electrical Subteams</div>
+                <div class="collapsible-body">
+                  <p>
+                    The Electrical team designs and fabricates our custom dashboard, power electronics, battery management, vehicle control, and sensor boards.
+                  </p>
               </li>
               <li>
-                <div class="collapsible-header"><i class="material-icons">assignment</i>2 administrative divisions</div>
-                <div class="collapsible-body"><p>Business, Publicity<br>The Business division’s main role is to prepare for the Cost event at competition. Therefore they manage all purchases made by the team and donations made to the team. The Publicity division maintains the outward appearance of the team. They manage the website and social media of the team.</p></div>
+                <div class="collapsible-header"><i class="material-icons">memory</i>Software Subteams</div>
+                <div class="collapsible-body">
+                  <p>
+                    The Software team programs all embedded systems on the car. Subteams also design and implement telemetry, post-processing, and control algorithms.
+                  </p>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">assignment</i>2 Administrative Divisions</div>
+                <div class="collapsible-body">
+                  <p>
+                    The Business division manages the team's funds, overlooking all purchases made by the team and handling donations.
+                    With all this knowledge, they also prepare for the cost static event at competition.
+                  </p>
+                  <p>
+                    The Publicity division manages the website and social media of the team.
+                  </p>
+                </div>
               </li>
             </ul>
           </div>
@@ -123,7 +198,7 @@
                 <div class="card white">
                   <div class="card-content">
                     <span class="card-title">Alan Alahmad</span>
-                    <span class="black-text">Aerodynamics Lead<br>Aeronautics & Astronautics Engineering '18</span>
+                    <span class="black-text">Aerodynamics Lead<br>Aeronautics &amp; Astronautics Engineering '18</span>
                   </div>
                 </div>
               </div>
@@ -139,7 +214,7 @@
                 <div class="card white">
                   <div class="card-content">
                     <span class="card-title">Luke Kulik</span>
-                    <span class="black-text">Aerodynamics Subteam<br>Aeronautics & Astronautics Engineering '19</span>
+                    <span class="black-text">Aerodynamics Subteam<br>Aeronautics &amp; Astronautics Engineering '19</span>
                   </div>
                 </div>
               </div>
@@ -177,7 +252,7 @@
                 <div class="card white">
                   <div class="card-content">
                     <span class="card-title">Harriet Chiu</span>
-                    <span class="black-text">Arbs & Rockers Lead<br>Mechanical Engineering '19</span>
+                    <span class="black-text">Arbs &amp; Rockers Lead<br>Mechanical Engineering '19</span>
                   </div>
                 </div>
               </div>
@@ -185,7 +260,7 @@
                 <div class="card white">
                   <div class="card-content">
                     <span class="card-title">Annetoinette Figueroa</span>
-                    <span class="black-text">Arbs & Rockers Subteam<br>Class of '21</span>
+                    <span class="black-text">Arbs &amp; Rockers Subteam<br>Class of '21</span>
                   </div>
                 </div>
               </div>
@@ -231,7 +306,7 @@
                 <div class="card white">
                   <div class="card-content">
                     <span class="card-title">Jeremy Noel</span>
-                    <span class="black-text">Frame and R&D Lead<br>Mechanical Engineering '20</span>
+                    <span class="black-text">Frame and R&amp;D Lead<br>Mechanical Engineering '20</span>
                   </div>
                 </div>
               </div>
@@ -239,7 +314,7 @@
                 <div class="card white">
                   <div class="card-content">
                     <span class="card-title">Andrew Tsang</span>
-                    <span class="black-text">R&D Subteam<br>Mechanical Engineering '18</span>
+                    <span class="black-text">R&amp;D Subteam<br>Mechanical Engineering '18</span>
                   </div>
                 </div>
               </div>
@@ -247,7 +322,7 @@
                 <div class="card white">
                   <div class="card-content">
                     <span class="card-title">Joshua Kubiak</span>
-                    <span class="black-text">R&D Subteam<br>Materials Science and Engineering '16</span>
+                    <span class="black-text">R&amp;D Subteam<br>Materials Science and Engineering '16</span>
                   </div>
                 </div>
               </div>
@@ -258,7 +333,7 @@
                 <div class="card white">
                   <div class="card-content">
                     <span class="card-title">Oliver MacNeely</span>
-                    <span class="black-text">R&D Subteam<br>Class of '21</span>
+                    <span class="black-text">R&amp;D Subteam<br>Class of '21</span>
                   </div>
                 </div>
               </div>
@@ -374,7 +449,7 @@
                 <div class="card white">
                   <div class="card-content">
                     <span class="card-title">Ethan Perrin</span>
-                    <span class="black-text">R&D Lead, Battery Subteam<br>Mechanical Engineering '20</span>
+                    <span class="black-text">R&amp;D Lead, Battery Subteam<br>Mechanical Engineering '20</span>
                   </div>
                 </div>
               </div>

@@ -10,8 +10,8 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" integrity="sha256-e22BQKCF7bb/h/4MFJ1a4lTRR2OuAe8Hxa/3tgU5Taw=" crossorigin="anonymous" />
+  <link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 
@@ -56,9 +56,7 @@
     </div>
     <div class="parallax">
       <div class="video-container">
-        <video autoplay loop muted width="100%" height="100%" class="responsive-video">
-            <source src="images/videos/palmer1.mp4" type="video/mp4">
-        </video>
+        <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/s/rwnn8/jzelqc?autoplay=1&muted=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
       </div>
     </div>
   </div>
@@ -69,27 +67,36 @@
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
+        <div class="center">
           <div class="icon-block">
             <a href="team.html"><h2 class="center black-text"><i class="material-icons">group</i></h2></a>
-            <h5 class="center">Team</h5>
-            <p class="light center">MIT Motorsports is composed of a dedicated group of students that strives to engineer a Formula SAE car of the highest calibre.</p>
+            <h3 class="center">Team</h3>
+            <p class="center">MIT Motorsports is a dedicated group of students that strives to engineer a Formula SAE car of the highest calibre.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="team.html"><h2 class="center black-text"><i class="material-icons">settings</i></h2></a>
+            <h5 class="center">Mechanical</h5>
+            <p class="light center">The Mechanical team, lead by our chief engineer, manages topics ranging from aerodynamics to frame design and packaging.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <a href="team.html"><h2 class="center black-text"><i class="material-icons">settings</i></h2></a>
-            <h5 class="center">Mechanical</h5>
-            <p class="light center">The Mechanical division led by the chief engineer comprises of 13 subsystems, including battery, powertrain, and aerodynamics.</p>
+            <a href="team.html"><h2 class="center black-text"><i class="material-icons">ev_station</i></h2></a>
+            <h5 class="center">Electrical</h5>
+            <p class="light center">The Electrical team designs and fabricates our custom dashboard, power electronics, battery management, vehicle control, and sensor boards.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <a href="team.html"><h2 class="center black-text"><i class="material-icons">memory</i></h2></a>
-            <h5 class="center">Electrical</h5>
-            <p class="light center">The Electrical Engineering division comprised of the voltage system and software teams is spearheaded by the EE lead.</p>
+            <h5 class="center">Software</h5>
+            <p class="light center">The Software team programs all embedded systems on the car. Subteams also design and implement telemetry, post-processing, and control algorithms.</p>
           </div>
         </div>
       </div>
