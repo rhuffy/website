@@ -41,6 +41,10 @@ blockquote::after{
   content: "";
 }
 
+.slider .indicators {
+  bottom: -30px;
+}
+
 h7 {
   font-size: 145%;
 }
